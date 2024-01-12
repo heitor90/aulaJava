@@ -10,6 +10,7 @@ public class TryCatchFinallyThrow {
         }
      }
      public static void main(String[] args) {
+         boolean deuRuim = false;
         
         try {
             Scanner sc = new Scanner(System.in);
@@ -18,6 +19,7 @@ public class TryCatchFinallyThrow {
             verificarIdade(idadeDigitada);
             sc.close();
         } catch (ArithmeticException e) {
+            deuRuim = true;
             Scanner scS = new Scanner(System.in);
             System.err.println("Ocorreu um erro" + e);
             System.err.println("Ocorreu um erro" + e);
@@ -25,9 +27,13 @@ public class TryCatchFinallyThrow {
             scS.close();
         }
         finally{
-            System.out.println("Mensagem Final");
+            if (deuRuim == true) {
+                System.out.println("Mensagem Final");
+                
+            }
+            else{
+                System.out.println("Concluído");
+            }
         }
      }
 }
-
-//falta aprimorações------------------condionar o finally
