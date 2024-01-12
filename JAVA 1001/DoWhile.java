@@ -1,5 +1,6 @@
 public class DoWhile {
     public static void main(String[] args) {
+        boolean deuRuim = false;
         int tempoTotal = 2;
         int minutoContado = 0;
         int segundoContado = 0;
@@ -13,7 +14,18 @@ public class DoWhile {
                     segundoContado = 0;
                 }
             } catch (Exception e) {
+                deuRuim = true;
                 System.out.println("Ops! Ocorreu um erro " + e);
+            }
+            finally{
+                if (deuRuim) {
+                    if(deuRuim = true){
+                        System.out.println("ACABOU!!");
+                    }
+                    else{
+                        System.out.println("isso ai");
+                    }
+                }
             }
         }
     }
