@@ -20,9 +20,9 @@ public class ValidacaoSenha {
 
         if (nome1.equals(nome) && senha1.equals(senha)) { // início do bloco 'if' (estrutura condional). se o nome digitado na variável
             // 'nome1' for IGUAL a variável 'nome' E a senha digitada na variável 'senha1' for IGUAL, execute o código abaixo
-            System.out.println("Erro ao efetuar o login"); // texto exibido no console
+            System.out.println("Login efetuado com sucesso"); // texto exibido no console
         } else { // bloco else = senão; senão, execute o código abaixo
-            System.out.println("Login feito com sucesso."); // texto exibido no console
+            System.out.println("Erro ao efetuar o login."); // texto exibido no console
         }
         // fechamento do Scanner declarado
         sc.close();
