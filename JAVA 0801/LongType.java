@@ -1,6 +1,10 @@
+// declaração do objeto 'LongType'
 public class LongType {
     public static void main(String[] args) {
-        Long longVar = 999999999999999999L;
-        System.out.println(longVar);
+         // criação do método executor (main)
+        // static: este método não pode ser alterado não pode ser alterado
+        // void: não pode retornar nenhum valor
+        Long longVar = 999999999999999999L; // declaração da variável 'longVar' do tipo 'Long'
+        System.out.println(longVar); // exibição da variável 'longVar' no console
     }
 }
