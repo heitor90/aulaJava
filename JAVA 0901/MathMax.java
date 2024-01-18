@@ -8,6 +8,7 @@ public class MathMax {
         double doubleNum = 23.000; // criação da variável 'doubleNum' do tipo 'double' com o valor "23.000"
         double doubleNum2 = 79.000; // criação da variável 'doubleNum2' do tipo 'double' com o valor "79.000" 
 
-        System.out.println(Math.max(doubleNum, doubleNum2)); // exibição das duas variáveis no console com o uso da biblioteca
+        System.out.println(Math.max(doubleNum, doubleNum2)); // exibição das duas variáveis no console com o uso da biblioteca, que 
+        // irá pegar o maior valor e vai exibi-lo
     }
 }
