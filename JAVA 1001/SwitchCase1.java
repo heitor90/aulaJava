@@ -3,6 +3,10 @@ import java.util.Scanner;
 // declaração do objeto 'SwitchCase1'
 public class SwitchCase1 {
     public static void main(String[] args) {
+        // criação do método executor (main)
+        // static: este método não pode ser alterado não pode ser alterado
+        // void: não pode retornar nenhum valor
+        // String[] args: declaração de todos os paramêtros
         
         Scanner scTeste = new Scanner(System.in); // declaração do Scanner com nome 'scTeste'
         String[] varOpcoes = { "Criar", "Ler", "Editar", "Excluir" }; // criação de uma lista do tipo 'String' com 4 opções
