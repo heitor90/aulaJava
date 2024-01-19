@@ -1,12 +1,14 @@
-// Importação das bibliotecas necessárias para manipulação de entrada/saída e JDBC (Java Database Connectivity)
+// importação das bibliotecas
 import java.util.Scanner;
 import java.sql.Connection;
 import java.sql.Statement;
-
-// Classe 'CreateMySQLInteract' responsável por interagir com o usuário para criar uma tabela no banco de dados MySQL
+// declaração do objeto 'CreateMySQLInteract'
 public class CreateMySQLInteract {
-    // Método principal 'main' que serve como ponto de entrada do programa
     public static void main(String[] args) {
+        // criação do método executor (main)
+        // static: este método não pode ser alterado não pode ser alterado
+        // void: não pode retornar nenhum valor
+        // String[] args: declaração de todos os paramêtros
         // Inicialização da variável 'sair' do tipo boolean para controle do loop while
         boolean sair = false;
 
