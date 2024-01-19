@@ -4,7 +4,13 @@ import java.sql.*;
 // declaração do objeto 'UpdateMySQL'
 public class UpdateMySQL {
     public static void main(String[] args) {
-        String status;
+        // criação do método executor (main)
+        // static: este método não pode ser alterado não pode ser alterado
+        // void: não pode retornar nenhum valor
+        // String[] args: declaração de todos os paramêtros
+
+        
+        String status; // variável 'status' do tipo 'String'
 
         try {
             // Conexão com o banco de dados
