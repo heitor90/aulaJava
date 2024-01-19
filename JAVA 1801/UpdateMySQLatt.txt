@@ -3,7 +3,7 @@ import java.sql.*;
 //importação de todos os items da biblioteca java.sql
 import java.util.*;
 //declaração da classe/objeto UpdateSQL
-public class UpdateSQL {
+public class UpdateMySQLatt {
     /**
      * declaração do metodo executor main
      * public: porque poderá ser importado por outro objeto/classe
