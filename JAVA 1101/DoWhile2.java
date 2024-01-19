@@ -6,6 +6,10 @@ import java.util.Scanner;
 // declaração do objeto 'DoWhile'
 public class DoWhile2 {
     public static void main(String[] args) {
+        // criação do método executor (main)
+        // static: este método não pode ser alterado não pode ser alterado
+        // void: não pode retornar nenhum valor
+        // String[] args: declaração de todos os paramêtros
         List<String> usersLogged = new ArrayList<>(); // criando uma nova lista do tipo 'String' com o nome 'userLogged'
         int usersLimit = 5; // criação da variável 'userLimit' do 'int' com o valor de "5" 
         Scanner sc = new Scanner(System.in); // declaração do Scanner com o nome de 'sc'
